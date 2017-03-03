@@ -1,0 +1,92 @@
+/*PRIMERA SECCION */
+.middle {
+	display: flex;
+}
+.flex-parent-about {
+	
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+  	align-items: center;
+  	align-content: center;
+}
+/*Este modifica  los testimoniales de home le pone un bg-#f0f0f0 */
+.element { 
+	background-color: #f0f0f0;
+	padding: 1.5em;
+	margin-top: .5%;
+}
+@media (max-width: 767px) {
+	.element {
+		width: 100%;
+	}		
+} 
+
+@media (min-width: 768px) {
+	.element {
+		width: 49.7%;
+	}	
+}
+
+@media (min-width: 992px) {
+	.element {
+		width: 33%;
+	}	
+}
+
+.flex-parent-def {
+	
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+  	align-items: center;
+  	align-content: center;
+}
+
+/* Segunda section */
+section.about-3 {
+	height: 628px;
+	display: flex;
+	align-items: center;
+}
+section.about-3 h6 {
+	color: white;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.about-3 h6:last-child {
+	margin-top: 4em;
+}
+
+/* Tercera seccion */
+section.about-3 {/*  */
+	background-image: url("../images/home-section-2.png");
+	width: 100%;
+	height: 628px;
+	 
+}
+
+.anillo {
+	width: 5em;
+	height: 5em;
+	border:3px solid #AF0D1A;
+	border-radius: 50%;
+}
+.circulo {
+	background-color: #AF0D1A;
+	width: 5em;
+	height: 5em;
+	border:3px solid #AF0D1A;
+	border-radius: 50%;
+}

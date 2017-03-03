@@ -1,0 +1,262 @@
+
+<div ng-controller="HomeController">
+	<div class="sticky-head"></div>
+	<!-- End Navigation -->
+
+	<!-- Begin Large Hero Block -->
+<section class="hero accent parallax" style="background-image: url(images/hero/hero_home-compressor.jpg);">
+
+		<!-- Heading -->
+		<div class="hero-content container" id="title-main"">
+			<h1>Software Developers</h1>
+		</div><!-- END -->
+		
+
+	<section class="carousel-testimonials content container ">
+	
+	<!-- <div> -->
+	  <div class="container-carousel">
+	    <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+	      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+	        <!-- <h3>{{slide.company}}</h3> -->
+	        <h6 class="center-block" id="h6-carrusel">{{slide.text}}</h6>
+	        <!-- <h4>Slide {{slide.id}}</h4> -->
+			<!-- <div class="carousel-caption"> -->
+	        </div>
+	      </div>
+	    </div>
+	<!--   </div> -->
+		
+		
+	<div class="margen-enlace">
+		<a href="#my-section" class="btn btn-default btn-circle flex-parent center-block"  id="link-down" style="text-decoration: none;">
+			<span class="glyphicon glyphicon-menu-down"></span>
+		</a>
+	</div>	
+		
+	</section>
+
+</section><!-- End Large Hero Block -->
+
+<!-- <section>
+	<div class="margen-enlace">
+		<a href="#my-section" class="btn btn-default btn-circle flex-parent center-block"  id="link-down" style="text-decoration: none;">
+			<img src="images/icons/menu-down.svg" alt="" style="background-size: cover">
+		</a>
+	</div>	
+</section> -->
+	
+	<!-- Begin Feature Blo"/home/juan/Escritorio/apache-tomcat-8.5.11"ck -->
+	<section  class="feature-box light container-fluid" id="my-section">
+	<div class="row">
+		<div class="col-xs-12 fondito">
+			<div class="fondo-img">
+				<img src="images/wavedev_img.png" class="img-responsive" alt="">
+				
+			</div>
+			<div class="text-main fondito">
+				<h6 style="color:white;width: 70%;">Lass sopciones son muchas, en Wave dev tenemos el conocimiento, el talento y la tecnología</h6>
+				<div class="flex-parent" id="btn-conocenos">
+					<h6 id="conocenos">Conócenos</h6>
+					<a href="#" class="btn btn-default btn-circle flex-parent" id="link-left">
+					<!-- <span class="glyphicon glyphicon-menu-right"></span></a> -->
+					<span>+</span></a>
+				</div>			
+				<!-- <p>Lorem ipspm dolor sit amet, consectetur adipisicing elit. Illo quae tempora praesentium magnam minima, hic vero soluta obcaecati! Facilis voluptate earum libero qui quas fugit tempora excepturi sapiente cumque, eveniet.</p> -->
+			</div>	
+		</div>
+	</div>
+	</section>
+
+<!-- Second section -->
+<section class="home-section-2">
+	<div class="container-fluid home-section-2-box">
+		<h6>Las opciones son muchas; en Wave dev tenemos el conocimiento, el talento y la tecnología</h6>
+		<div class="box-conocenos-btn">
+			<h6 class="conocenos">Conócenos</h6>
+			<a href="#" class="btn btn-default btn-circle flex-parent" id="link-left">
+			<span class="glyphicon glyphicon-menu-right"></span></a>
+		</div>
+	</div>
+	
+</section>
+	<!-- div class="flex-parent-col-2">
+		<div class="col flex-parent-col-2">
+			<img src="images/fondo.png" class="img-responsive pos-absolute" alt="" />
+			
+			<div class="pos-absolute">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			</div>	
+		</div>
+		
+		
+		
+		<div class="col">
+			<img src="images/fondo.png" class="img-responsive" alt="" />
+		</div>
+	</div -->
+
+<!-- Fin second section -->
+	<!-- Begin Recent Work Block -->
+	<!-- section class="container-fluid">
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-12 col-md-6 img-col img-col-1">
+				<img src="images/fondo.png" class="img-responsive">
+				
+				<div ng-mouseover="hoverCopy('into')" ng-mouseleave="hoverCopy('out')" class="well frame frame-hover ">
+					<h6 class="txt-white p-main text-transform-none">{{initialText}}</h6>
+					<h2 class="txt-white">{{initialTitle}}</h2>
+					<p class="txt-white">{{initialDescription}}</p>
+					<h6 class="txt-white lower-case">Contáctanos</h6>
+					<a href="#" class="btn btn-default btn-circle flex-parent" id="link-left">
+						<span class="glyphicon glyphicon-menu-right"></span>
+					</a>
+				</div>
+			
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 img-col img-col-2 col-lg-offset-6">
+				<img src="images/fondo.png" class="img-responsive">
+				<div ng-mouseover="hoverProject('into')" ng-mouseleave="hoverProject('out')" class="well frame frame-hover p-main">
+					<h6 class="txt-white text-transform-none">{{projectText}}</h6>
+					<h2 class="txt-white">{{projectTitle}}</h2>
+					<p class="txt-white">{{projectDescription}}</h6>
+					<h6 class="txt-white lower-case">Proyectos</h6>
+					<a href="#" class="btn btn-default btn-circle flex-parent" id="link-left">
+						<span class="glyphicon glyphicon-menu-right"></span>
+					</a>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			
+		</div>
+		
+	</section -->
+	
+	<section>
+		<div class="contenedor">
+	
+			<div class="hijo">
+				<img src="images/fondo.png" class="img-responsive" alt="">
+				
+				<div ng-mouseover="hoverCopy('into')" ng-mouseleave="hoverCopy('out')"
+					class="frame">
+					<p class="txt-white p-main text-transform-none">{{initialText}}</p>
+					<h2 class="txt-white">{{initialTitle}}</h2>
+					<p class="txt-white">{{initialDescription}}</p>
+					<h6 class="txt-white lower-case conocenos">Contrátanos</h6>
+					<a href="#" class="btn btn-default btn-circle flex-parent" id="link-left">
+						<span class="glyphicon glyphicon-menu-right"></span>
+					</a>	
+				</div>
+				
+			</div>
+	
+			<div class="hijo">
+				<img src="images/fondo.png" class="img-responsive" alt="">
+				<div ng-mouseover="hoverProject('into')" ng-mouseleave="hoverProject('out')"
+					class="frame">
+					<p class="txt-white p-main text-transform-none">{{projectText}}</p>
+					<h2 class="txt-white">{{projectTitle}}</h2>
+					<p class="txt-white">{{projectDescription}}</p>
+					<h6 class="txt-white lower-case conocenos">Proyectos</h6>
+					<a href="#" class="btn btn-default btn-circle flex-parent" id="link-left">
+						<span class="glyphicon glyphicon-menu-right"></span>
+					</a>	
+				</div>
+			</div>
+	
+		</div>
+		
+	</section>
+			
+	<!-- Begin Client Logos Block -->
+	<section class="clients container-fluid section-tech">
+		<h4 style="color: #AF0D1A">TECNOLOGÍAS</h4>
+		<h3 style="color: #B2B2B2">nuestro stack</h3>
+		<!-- prueba con flexbox -->
+	<div class="tech container">
+		<div class="flex-parent-tech">
+			<div class="animated fade flex-child-tech" data-appear-bottom-offset="100">
+				<h1><span class="icon-java-bold"></span></h1>
+			</div>
+			<div class="logo animated fade flex-parent-tech flex-child-tech" data-appear-bottom-offset="100">
+				<h1><span class="devicon-android-plain"></span></h1>
+			</div>
+			<div class="logo animated fade flex-parent-tech flex-child-tech" data-appear-bottom-offset="100">
+				<h1><span class="devicon-angularjs-plain"></span></h1>
+			</div>
+			<div class="logo animated fade flex-child-tech" data-appear-bottom-offset="100">
+				<h1><span class="icon-mongodb"></span></h1>
+			</div>
+			<div class="logo animated fade flex-child-tech" data-appear-bottom-offset="100">
+				<h1><span class="icon-mysql"></span></h1>
+			</div>
+			<div class="logo animated fade flex-child-tech" data-appear-bottom-offset="100">
+				<h1><span class="icon-nodejs"></span></h1>
+			</div>
+
+			<div class="logo animated fade flex-child-tech" data-appear-bottom-offset="100">
+				<h1><span class="devicon-git-plain"></span></h1>
+			</div>
+			<div class="logo animated fade flex-child-tech" data-appear-bottom-offset="100">
+				<h1><span class="devicon-html5-plain"></span></h1>
+			</div>
+			<div class="logo animated fade flex-child-tech" data-appear-bottom-offset="100">
+				<h1><span class="devicon-apple-original"></span></h1>
+			</div>
+			<div class="logo animated fade flex-child-tech" data-appear-bottom-offset="100">
+				<h1> <span class="devicon-javascript-plain"></span></h1>
+			</div>
+		</div>
+	</div>
+<!-- Fin de tech con flexbox -->
+	</section>
+
+
+
+	<!-- End Client Logos Block -->
+
+<!-- Nuestro equipo -->
+<section class="home-section-5">
+	<div class="container-fluid home-section-5-box">
+		<h4>NUESTRO EQUIPO</h4>
+		<h6>Somos un conjunto de profesionales activos que generamos relaciones de confianza basadas en la honestidad y el respeto. Ponemos todo un equipo para ayudarte a cumplir tus objetivos. Haremos que tu relación con Wave dev sea duradera.</h6>
+		<div class="box-5-conocenos-btn">
+			<h6 class="conocenos">Conócenos</h6>
+			<a href="#" class="btn btn-default btn-circle flex-parent" id="link-left">
+			<span class="glyphicon glyphicon-menu-right"></span></a>
+		</div>
+	</div>
+	
+</section>
+		
+	
+<!-- 	<section class="nuestro-equipo animated fade">
+		<article class="ne well">
+			
+				<h4 style="color: white;">Nuestro equipo</h4>
+			
+			
+				<h6>Somos un conjunto de profesionales activos que generamos relaciones de confianza basadas en la honestidad y el respeto. Ponemos todo un equipo para ayudarte a cumplir tus objetivos. Haremos que tu relación con Wave dev sea duradera.
+				</h6>
+				
+				<h4 class="txt-white ">Conócenos</h4>
+				<a href="#" class="btn btn-default btn-circle flex-parent" id="link-left">
+					<span class="glyphicon glyphicon-menu-right"></span>
+				</a>
+					
+		</article>	
+	</section>
+ -->
+ 
+ </div>
+
+	<!-- Fin de nuestro equipo -->
+
+	<!-- Begin Call to Action Block -->
+	<!-- <section class="call-to-action content light">
+		<div class="container">
+ -->

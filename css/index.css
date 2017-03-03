@@ -1,0 +1,44 @@
+.footer-logo-image {
+	width: ;
+	margin: auto;	
+}
+.flex-social-sm {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	
+	flex-direction: row;
+	justify-content: center;
+
+  	align-items: center;
+  	align-content: center;
+}
+div.a-social a.btn.btn-info {
+	background-color: #af0d1a;
+	 width: 10%;
+}
+.mobile-foot img {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 991px) {
+	footer.md-lg {
+		display: none;
+	}	
+}
+@media (min-width: 992px) {
+	footer.mobile-foot {
+		display: none;
+	}
+}
+footer.mobile-foot p.center-text {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+/* Inicio=> pone color blanco y bol al placeholder de input y textarea */
+footer input::-webkit-input-placeholder { color: #000; font-weight: bold} /* WebKit */
+footer input:-moz-placeholder { color: #000; font-weight: bold } /* Firefox 18- */
+footer input::-moz-placeholder { color: #000; font-weight: bold } /* Firefox 19+ */
+footer input:-ms-input-placeholder { color: #000; font-weight: bold } /* IE 10+ */

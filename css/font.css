@@ -1,0 +1,251 @@
+/* =Common Styles
+-------------------------------------------------------------- */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: .1em; /* checarlo no vi cambios */
+}
+
+/*img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}*/
+
+body { 
+	/*background: #fff;*/
+	/*color: #424242;*/
+	font: normal 16px "Rubik", arial, sans-serif; /*Lato*/
+	font-weight: 300; /*normal*/
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+}
+
+section { overflow: hidden; }
+::selection { background: #303336; color: #fff; }
+::-moz-selection { background: #303336; color: #fff; }
+
+
+/* =Typography
+-------------------------------------------------------------- */
+
+p {
+	font-size: 1em; /*0.9em;*/
+	/*color: #424242;*/
+	line-height: 1.3em;
+	/*margin: 0 0 0.7em;*/
+}
+
+/*.highlighted { color: #2db4d8; }*/
+
+/*em { font-style: italic; }
+strong { font-weight: 400; }
+small { font-size: 0.8em; }
+*/
+/*h1,h2,h3,h4,h5,h6 {
+	font-family: 'Rubik'; /*"Montserrat";*/
+/*	font-weight: 400;
+	color: #303336;
+	font-style: normal;
+	line-height: 1.17em;
+	margin: 0 0 15px;
+}*/
+
+/*a, a:visited {
+	color: #ddd;/*#2db4d8; azul suave*/
+/*	font-weight: 400;
+	text-decoration: none;
+}*/
+
+/*a:hover { text-decoration: underline; }*/
+body {
+	font-size: 100%;
+}
+ 
+h1 {
+	font-size: 3.375em; /*28px;*/
+	letter-spacing: -0.05em;
+}
+
+h2, h3 {
+	
+	font-size: 2.25em; /*20px;*/
+	letter-spacing: -0.05em;
+}
+
+/*h3 {
+	font-size: 16px;
+	letter-spacing: -0.05em;
+}*/
+
+h4 {
+	font-size: 1.5em; /*13px;*/
+	letter-spacing: -0.05em;
+	/*text-transform: uppercase;	*/
+}
+
+h5 {
+	/*font-family: "Lato";*/
+	font-weight: 300; /*400;*/
+	font-size: 1.5em;/*11px;*/
+	/*text-transform: uppercase;*/
+}
+
+h6 {
+	/*font-family: "Lato";*/
+	font-weight: 300;
+	font-size: 1.5em; /*11px;*/
+	/*text-transform: uppercase;*/
+}
+
+/*@media (min-width: 768px) {
+	p { font-size: 1em; }
+	p.small { font-size: 14px; }
+	h1 {font-size: 38px;}
+	h2 {font-size: 25px;}
+	h3 {font-size: 17px;}
+	h4 {font-size: 14px;}
+	h5 {font-size: 12px;}
+	h6 {font-size: 12px;}
+}
+
+@media (min-width: 1200px) {
+	p { font-size: 1em; }
+	h1 {font-size: 48px;}
+	h2 {font-size: 28px;}
+	h3 {font-size: 18px;}
+	h4 {font-size: 15px;}
+	h5 {font-size: 13px;}
+	h6 {font-size: 13px;}
+}*/
+
+/* Typography for accent backgrounds */
+/*.accent p, .accent h1, .accent h2, .accent h3, .accent h4, .accent h5, .accent h6 { color: #fff; }
+
+.accent a, .accent a:visited { 
+	color: #fff; text-decoration: underline;
+	-webkit-transition: opacity 0.25s linear;
+	   -moz-transition: opacity 0.25s linear;
+		 -o-transition: opacity 0.25s linear;
+			transition: opacity 0.25s linear;
+}
+
+.accent a:hover {
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-webkit-transition: opacity 0.25s linear;
+	   -moz-transition: opacity 0.25s linear;
+		 -o-transition: opacity 0.25s linear;
+			transition: opacity 0.25s linear;
+}
+*/
+/* Typography for light backgrounds */
+/*.light h1, .light h2, .light h3, .light h4, .light h5, .light h6 { color: #505656; }
+.light p { color: #7a7a7a; }*/
+
+/* Typography for dark backgrounds */
+/*.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 { color: #f2f2f1; }
+.dark p { color: #e0e0dd; }
+*/
+
+
+h1,h2,h3,h4,h5 {
+	font-family: 'Rubik';
+}
+
+h6, p {
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1, h5, h6, p {
+	font-weight: normal;
+}
+h2, h4 {
+	font-weight: bold;
+}
+h3{
+	font-style: italic;
+}
+h1, h6 {
+	letter-spacing: 0.05em;
+}
+h2,h3,h4,h5 {
+	letter-spacing: 0.25em;	
+}
+.lower-case {
+	text-transform: lowercase;
+}
+.text-transform-none {
+ 	text-transform: none;
+}
+
+#p-pie {
+	margin-bottom: 0px; 
+}
+
+/*TIPOGRAFIA PLACEHOLDER*/
+input::-webkit-input-placeholder {
+  color: white;
+  font-size: ;
+  font-family: 'Rubik';
+}
+input:-moz-placeholder {
+  color: white;
+  font-size: ;
+  font-family: 'Rubik';
+}
+input:-ms-input-placeholder { 
+  color: white;
+  font-size: ;
+  font-family: 'Rubik';
+}
+textarea::-webkit-input-placeholder {
+  color: white;
+  font-size: ;
+  font-family: 'Rubik';
+}
+textarea:-moz-placeholder {
+  color: white;
+  font-size: ;
+  font-family: 'Rubik';
+}
+textarea:-ms-input-placeholder { 
+  color: white;
+  font-size: ;
+  font-family: 'Rubik';
+}
+
+/* checar porque no funciona */
+@media (max-width: 767px) {
+	body {
+		font-size: 75%;
+	}		
+}
+
+@media (min-width: 768px) {
+	body {
+		font-size: 75%;
+	}	
+}
+@media (min-width: 992px) {
+	body {
+		font-size: 100%;
+	}
+}/* checar porque no funciona */

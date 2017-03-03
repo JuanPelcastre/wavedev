@@ -1,0 +1,264 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if IE 9]> <html class="ie9 no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html  ng-app="app" class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>WAVEDev</title>
+	<base href="/page/">
+	<meta name="description" content="Form. Responsive HTML5 template.">
+	<meta name="keywords" content="form, responsive, multi-purpose, portfolio, parallax, template, html5, agency">
+	<meta name="author" content="Aether Themes">
+	<link rel="shortcut icon" href="images/logo-header.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<!-- <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"> -->
+	<!-- <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
+	<link href="font-mfizz-2.3.0/font-mfizz.css" rel="stylesheet"><!-- iconos -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+	<link rel="shortcut icon" href="images/logo-header.png">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<!-- jQuery -->
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<!-- AngularJS -->
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-animate.js"></script>
+	<script src='//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.min.js'></script>
+	<script src="//code.angularjs.org/1.6.1/i18n/angular-locale_es-es.js"></script>
+	<script src="js/script-angular.js"></script>
+	<script src="js/google.maps.location.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-sanitize.js"></script>
+	<script src="js/bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+	<script src="js/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400|Montserrat' rel='stylesheet' type='text/css'>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/framework.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="js/bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" type="text/css" href="css/custom-style.css">
+	<link rel="stylesheet" type="text/css" href="css/hover-img.css">
+	<link rel="stylesheet" type="text/css" href="css/carrousel.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/botones.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	
+
+</head>
+
+<body ng-controller="NavigationController">
+	<!-- Begin Navigation -->
+	<nav class="mobile">
+
+		<!-- Search -->
+	
+
+		<!-- Menu -->
+		<ul class="nav-content clearfix">
+			<li id="magic-line"></li>
+			<li class="current-page drop first upper">
+				<li class="upper"><a class="projectsDrop" href="javascript:;" ng-click="changeView('about')">Nosotros</a>
+			</li>
+			<li class="drop upper">
+				<a class="drop-btn" href="/projects" id="projectsDrop">Proyectos</a>
+				<ul class="drop-list">
+					<li><a class="projectsDrop" href="javascript:;" ng-click="changeView('projects')">Proyectos</a></li>
+					<li><a class="projectsDrop" href="javascript:;" ng-click="changeView('project-1')">Proyecto 1</a></li>
+					<li><a class="projectsDrop" href="javascript:;" ng-click="changeView('project-2')">Proyecto 2</a></li>
+					<li><a class="projectsDrop" href="javascript:;" ng-click="changeView('project-3')">Proyecto 3</a></li>
+				</ul>
+			</li>
+			<li class="upper"><a class="projectsDrop" href="javascript:;" ng-click="changeView('team')">Equipo</a></li>
+			<li class="upper"><a class="projectsDrop" href="javascript:;" ng-click="changeView('contact')">Contacto</a></li>
+		</ul><!-- END -->
+
+	</nav>
+	<header class="mobile">
+
+		<!-- Logo -->
+		<a class="projectsDrop" href="javascript:;" ng-click="changeView('home')"><img class="logo" src="images/logotipo.png" alt="Form Logo" width="96" height="35" /></a>
+
+		<!-- Menu Button -->
+		<button type="button" class="nav-button">
+		  <div class="button-bars"></div>
+	    </button><!-- END -->
+
+	</header>
+
+	<div class="sticky-head"></div>
+	<!-- End Navigation -->
+	
+	<!-- views angular-->
+	
+	<!-- <div ng-view></div> -->
+	
+	<div ng-include="currentPage" onload="scrollTop()"></div>
+
+	<!-- end views angular-->
+
+	<!-- Begin Call to Action Block -->
+	<section class="call-to-action content light">
+		<div class="container">
+
+			<!-- Title -->
+			<div class="row">
+				<div class="title col-xs-12 col-lg-8 col-lg-offset-">
+					<h5 style="color: #4c4c4c;">¿TIENES UN PROYECTO?</h5>
+					<!-- <p>If so, why don’t you get in touch with us so we can talk about your projects.</p> -->
+				</div>
+				
+				<div class="title col-xs-12 col-lg-8 col-lg-offset-4">
+					<h5 style="color: #808080;">¿ALGÚN COMENTARIO?</h5>
+				</div>
+			</div> <!-- END -->
+
+			
+			<h5><a class="btn btn-danger btn-lg" href="#/contact" target="_blank">Contáctanos</a></h5>
+		</div>
+	</section>
+	<!-- End Call to Action Block -->
+
+	<footer class="container-fluid md-lg">
+		
+		<div class="footer-landing-page row">
+			<div class="footer-logo col-xs-12 col-md-4">
+				<div class="footer-logo-img">
+					<img src="images/logo-footer.png" class="img-responsive" alt="WaveDEV Desarrolladores de Software">
+				</div>
+				<div>
+					
+					<address>
+						<p style="text-align: center;line-height: 1em;margin-top:2em;  margin-bottom: 0em;">
+							<small style="text-align: center;" class="direction" class="fa fa-map-marker">
+								Tlacoquemecatl 21, Tlacoquemecatl del Valle
+							</small>
+						</p>
+						<p style="text-align: center;line-height: 1em;margin-bottom: 0em;">
+							<small>
+								Benito Juárez,03200
+							</small>
+						</p>
+						<p style="text-align: center;line-height: 1em;" class="p-pie">
+							<small>
+								México, D.F. 
+							</small>
+						</p>
+					</address>
+				</div>
+			</div>
+
+
+			<div class="footer-contacto col-xs-12">
+				
+				<div class="space email">
+					<div class="col-comun news"><h5>NEWSLETTER</h5></div>
+					<div class="col-comun" style="width:350px;">
+						<input type="text" placeholder="Correo electrónico" id="in-mail">
+					</div>	
+					<!-- <a href="#" class="">Correo electrónico</a></div>	 -->
+				</div>
+				
+				<div class="space email">
+					<div class="col-comun news"></div>
+					<div class="col-comun liga"><button class="w3-btn" style="background-color: #AF0D1A; width: 110px; text-align: center;">enviar</button>
+					</div>	
+				</div>
+
+				<div class="space copyright-m">
+				</div>
+				
+				<div class="space social">
+					<ul class="social-list flex-parent">
+						<li><a class="w3-btn-floating-large flex-parent linkedin" href="#"><i class="net fa fa-linkedin"></i></a></li>
+						<li><a class="w3-btn-floating-large flex-parent facebook" href="#"><i class="net fa fa-facebook"></i></a></li>
+					</ul>
+				</div>
+				
+				<div class="space copyright-m"><p><small>2017, WaveDev. Todos los derechos 	reservados.</small></p>
+				</div>
+					
+			</div>
+		</div>
+		
+	</footer>
+	<!-- Fin de footer wave  -->
+	<footer class="mobile-foot">
+		<div class="container">
+			<div class="">
+				<div class="footer-logo-image" style="border-top:3px solid #af0d1a; padding-top:10%;">
+							<img src="images/logo.svg" class="img-responsive" alt="WaveDEV Desarrolladores de Software">
+						</div>
+						<div >
+							<address>
+								<p style="text-align: center;line-height: 1em;margin-top:10%;  margin-bottom: 0em;">
+									<small style="text-align: center;" class="direction" class="fa fa-map-marker">
+										Tlacoquemecatl 21,
+									</small>
+								</p>
+								<p style="text-align: center;line-height: 1em;margin-bottom: 0em;">
+									<small style="text-align: center;" class="direction" class="fa fa-map-marker">
+										Tlacoquemecatl del Valle
+									</small>
+								</p>
+								<p style="text-align: center;line-height: 1em;margin-bottom: 0em;">
+									<small>
+										Benito Juárez,03200
+									</small>
+								</p>
+								<p style="text-align:center;line-height: 1em; width:70%;padding-bottom:20%;border-bottom: 3px solid #af0d1a;" class="p-pie center-block">
+									<small>
+										México, D.F. 
+									</small>
+								</p>
+							</address>
+						</div>
+						<div class="center-text"><h5 style="margin-top:13%;margin-top:15%;;">NEWSLETTER</h5></div>
+						<input type="text" placeholder="Correo electrónico" id="in-mail" class="center-block" style="width:80%;margin:auto">
+						<div style="margin-top:10%;margin-bottom:15%;">
+							<button class="w3-btn center-block" style="background-color: #AF0D1A;display:block; text-align: center;">enviar</button>
+						</div>	
+								<div class="flex-social-sm">
+									<a class="w3-btn-floating-large flex-parent linkedin" href="#"><i class="net fa fa-linkedin"></i></a>
+									<a class="w3-btn-floating-large flex-parent facebook" href="#"><i class="net fa fa-facebook"></i></a>
+							</div>
+						<p class="center-text"><small>2017, WaveDev. Todos los derechos reservados.</small></p>
+			</div>		
+		</div>
+	</footer>
+					
+	
+
+	<!-- Javascript -->
+	<script src="js/retina.js"></script>
+	<script src="js/backgroundcheck.js"></script>
+	<script src="js/plugins.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="js/main.js"></script>
+	
+</body>
+
+</html>

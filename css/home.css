@@ -1,0 +1,278 @@
+/*a#link-down .glyphicon { //manipular el tamaño de el glyphicon
+	font-weight: 400;
+	font-size: 2em;
+}*/
+/*tipografia de */
+/*div.frame h2.txt-white {
+	color: blue;
+	font-weight: bold;
+}*/
+
+/* First section */
+#h6-carrusel {
+	/* background-color: yellow; */
+	width: 75%;
+	margin-top: 1em;
+}
+div.hero-content {
+	/*background-color: #545994;*/
+	margin-top: 7em; /*200px;*/
+}
+/* BOTON DOWN*/
+div.margen-enlace a#link-down {
+	/*background-color: #545994;*/
+	margin-top: 4em;
+	margin-bottom: 3em;
+}
+@media screen and (min-width: 611px) {
+	div.hero-content {
+	/*background-color: #545994;*/
+	margin-top: 12.5em; /*200px;*/
+	}
+	div.margen-enlace a#link-down {
+	/*background-color: #545994;*/
+	margin-top: 2em;
+	margin-bottom: 3em;
+}	
+}
+/*ESTE ES EL CAROUSEL CON < TESTIMONIOS >*/
+div.container-carousel {
+	/*background-color: #545994;*/
+	height: 10em;
+	margin-top: 20px;
+	padding-bottom: 2em;
+}
+
+/* Segunda seccion */
+section.home-section-2 {
+	background-image: url("../images/home-section-2-mobile-cut.jpg");
+	width: 100%;
+	height: 543px;
+	margin: 2.5em 0em 3.8em 0em; 
+}
+.home-section-2-box {
+	background-color: rgba(175,13,26,0.8);
+	padding: 2em 1.5em;
+	width: 70%;
+	margin-top: 40%;
+}
+section.home-section-2 h6 {
+	color: white;
+	text-align: center; 
+}
+/* div.container-fluid.home-section-2-box */
+ 
+div.box-conocenos-btn {
+	margin-top: 3em;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.conocenos { margin-right: 1em; }
+
+@media screen and (min-width: 611px) {
+	section.home-section-2 {
+		background-image: url("../images/home-section-2.png");
+		width: 100%;
+		height: 628px;
+	}
+	.home-section-2-box {
+		background-color: transparent;
+		padding: 2em 1.5em;
+		width: 70%;
+		margin-top: 15em; /* 15%; */
+	}
+	section.home-section-2 h6 {
+		color: white;
+		text-align: center;
+		/* text-shadow: 3px 3px 8px black; */ 
+	}
+	div.box-conocenos-btn {
+		margin-top: 14em;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+}
+
+
+/* .content-text {
+	
+	flex
+	display: flex;
+	flex-direction: column;
+	
+} */
+
+/* .bg-img {
+	background-image: url("../images/wavedev_img.png");
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-attachment: fixed;
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+}
+ */
+/*.content-*/
+
+
+/* Tercera seccion */
+.hijo {
+	margin-bottom: 2.5em;
+}
+/* dos column*/
+.contenedor {
+	display: block;
+}
+.hijo {
+	width: 100%;
+	position: relative;
+}
+div.frame {
+	border: 3px solid white;
+	width: 89.5%;
+	height: 50%;
+	padding: 1% 5%;
+	position: absolute;
+	top: 25%;
+	left: 5.25%;
+}
+div.frame:hover {
+	height: 78.2%;
+	padding: 5% 8%;
+	top: 10.9%;
+}
+div.hijo div.frame p.p-main {
+	margin-top: 6%;
+	margin-bottom: 0%;
+
+}
+div.hijo div.frame h2 {
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+
+@media screen and (min-width: 611px) {
+	.contenedor {
+		display: flex;
+		justify-content: space-between;
+	}
+	.hijo {
+		width: 49%;
+		/*position: relative;*/
+	}
+	div.frame {
+		border: 3px solid white;
+		width: 89.5%;
+		height: 26.7%;
+		padding: 1% 5%;
+		position: absolute;
+		top: 36.65%;
+		left: 5.25%;
+	}
+	
+}
+
+
+/* Cuarta seccion tecnologias*/
+.flex-parent-tech {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+  	align-items: center;
+  	align-content: center;
+}
+
+.flex-child-tech {
+	width: 4em;
+}
+@media screen and (min-width: 611px) {
+	section.clients {
+		height: 550px;
+		padding-top: 115px;
+		padding-bottom: 195px;
+	}
+	section.clients h3 {
+		margin-top: 0px;
+		margin-bottom: 115px;
+	}
+	section.clients h4 {
+		
+	}
+	div.flex-parent-tech {
+		/*background-color: white;*/
+		height: 70px;
+	}
+}
+/* Quinta seccion */
+section.home-section-5 {
+	background-image: url("../images/mac-dev.jpg");
+	width: 100%;
+	height: 512px;
+	margin: 2.5em 0em 3.8em 0em; 
+}
+.home-section-5-box {
+	background-color: rgba(175,13,26,0.8);
+	padding: 1.5em 1.5em;
+	width: 90%;
+	margin-top: 30%;
+}
+section.home-section-5 h4, section.home-section-5 h6 {
+	color: white;
+	text-align: center; 
+}
+/* div.container-fluid.home-section-2-box */
+ 
+div.box-5-conocenos-btn {
+	margin-top: 5.5em;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.conocenos { 
+	margin-right: 1em; 
+}
+h6.conocenos {
+	font-family: 'Rubik';
+	font-size: 1em;
+	letter-spacing: 0.2em;
+	font-weight: 400;
+}
+
+@media screen and (min-width: 611px) {
+	section.home-section-5 {
+		background-image: url("../images/mac-dev.jpg");
+		width: 100%;
+		height: 700px;
+	}
+	.home-section-5-box {
+		background-color: rgb(175,13,26,0.8);
+		padding: 4em 1.5em 1.5em 3em;
+		width: 60%;
+		height: 60%;
+		margin-top: 5em; /* 15%; */
+	}
+	section.home-section-5 h6 {
+		color: white;
+		text-align: center;
+		/*text-shadow: 3px 3px 8px black; */
+	}
+	div.box-5-conocenos-btn {
+		margin-top: 5.5em;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+	.home-section-5-box h4 {
+		margin-bottom: 2.8em;
+	}
+}
+ 

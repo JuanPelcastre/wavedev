@@ -1,0 +1,141 @@
+/* INICIO BTN CONTÁCTANOS*/
+.btn-group-lg>.btn, .btn-lg {
+	border-radius: 0px;
+}
+
+.btn-danger {
+	background-color: #AF0D1A;
+}
+
+/*background-color: rgba(25,25,25,.1);
+	color: white;
+	border: none;
+*/
+.btn-danger:hover {
+	background-color: #9d0b17;
+}
+
+.btn-lg {
+	width: 100%;
+	height: 50px;
+}
+
+@media screen and (min-width: 611px) {
+	.btn-lg {
+		width: 365px;
+		height: 50px;
+	}
+}
+
+a.btn.btn-danger.btn-lg {
+	text-transform: lowercase;
+}
+/* FIN BTN CONTÁCTANOS*/
+
+/* INICIO INPUT CORREO ELECTRÓNICO */
+input#in-mail {
+	width: 350px;
+	height: 50px;
+	padding-left: 1em;
+	margin-left: 1em;
+	background-color: rgba(25, 25, 25, .3);
+	color: #4c4c4c;
+	border: none;
+}
+
+input#in-mail:hover {
+	background-color: rgba(30, 30, 30, .4);
+	border-color: yellow;
+}
+/* INICIO INPUT CORREO ELECTRÓNICO */
+
+/*MARGEN DE BOTON SOCIAL LINKEDIN*/
+.w3-btn-floating, .w3-btn-floating-large {
+	margin-left: .3em;
+	margin-right: .3em;
+} /*FIN DE MARGEN SOCIAL LIN*/
+
+/* INICIO QUITAR EL FONDO A LA CLASE WELL */
+.well {
+	background-color: transparent;
+	box-shadow: none;
+} /* FIN QUITAR EL FONDO A LA CLASE WELL*/
+
+/* INICIO QUITAR EN BORDE A WELL*/
+section.first .well {
+	border: none;
+} /* FIN QUITAR EN BORDE A WELL*/
+#conocenos {
+	color: white;
+	margin-right: 0.5em;
+}
+
+#btn-conocenos {
+	margin-top: 20em;
+}
+
+/* flexbox grid prueba*************************************************************** */
+.light {
+	background-color: white;
+}
+
+/* .flex-grid {
+  display: flex;
+}
+.flex-grid .col {
+  flex: 1;
+}
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-thirds .col {
+  width: 33%; 32%;
+  margin-bottom: .3em;
+}
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+    .col {
+      width: 50%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0px;
+  background-color: white;
+}
+.flex-grid { 
+  margin: 0 0 20px 0;
+}
+.col {
+  background-color: #F0F0F0;
+  padding: 1em;
+} */
+/*********************************************************************/
+section.about-section.container-fluid, section#my-section.feature-box.light.container-fluid
+	{
+	padding-right: 0em;
+	padding-left: 0em;
+}
+
+.btn-default {
+	border-color: none;
+}

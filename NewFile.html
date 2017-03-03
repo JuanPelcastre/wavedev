@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>Prueba de media queries</title>
+<style>
+img {
+	/* max-width: 100%; */
+}
+
+@media screen and (min-width: 601px) {
+	body {
+		background-color: aqua;
+	}
+	.contenedor {
+		display: flex;
+		justify-content: space-between;
+	}
+	.hijo {
+		width: 45%;
+	}
+}
+</style>
+</head>
+<body>
+	<div class="contenedor">
+
+		<div class="hijo">
+			<img src="images/fondo.png" alt="">
+		</div>
+
+		<div class="hijo">
+			<img src="images/fondo.png" alt="">
+		</div>
+
+	</div>
+
+</body>
+</html>
